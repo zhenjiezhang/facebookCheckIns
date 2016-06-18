@@ -1,2 +1,5 @@
 *.csv
 *.zip
+*.clfs
+*clf
+*.rst
