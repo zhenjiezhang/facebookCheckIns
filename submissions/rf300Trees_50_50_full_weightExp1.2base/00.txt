@@ -1,0 +1,2 @@
+s_w_rf=1.2**(15-regionalTrain['day'].values/30.0)
+clf=RandomForestClassifier(n_jobs=-1, n_estimators=300, random_state=0).fit(regionalTrain[f], regionalTrain['place_id'], sample_weight=s_w_rf)
